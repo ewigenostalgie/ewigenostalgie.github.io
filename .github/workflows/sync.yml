@@ -22,7 +22,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install feedparser
+        run: pip install feedparser requests beautifulsoup4 markdownify
 
       - name: Sync RSS
         run: python sync_naver.py
