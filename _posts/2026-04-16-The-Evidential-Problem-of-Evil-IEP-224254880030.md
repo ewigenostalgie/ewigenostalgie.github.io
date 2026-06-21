@@ -1,6 +1,6 @@
 ---
 title: "「The Evidential Problem of Evil」 (IEP)"
-date: 2026-04-16 20:42:00 +0900
+date: 2026-04-16 20:42:15 +0900
 original_url: "https://blog.naver.com/ewigenostalgie/224254880030"
 source: "Naver Blog"
 log_no: "224254880030"

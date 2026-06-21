@@ -1,6 +1,6 @@
 ---
 title: "「Logical Problem of Evil」 (IEP)"
-date: 2026-04-18 02:10:00 +0900
+date: 2026-04-18 02:10:38 +0900
 original_url: "https://blog.naver.com/ewigenostalgie/224256357491"
 source: "Naver Blog"
 log_no: "224256357491"
