@@ -1,6 +1,6 @@
 ---
 title: "「Gott spricht zu jedem nur, eh er ihn macht」, Rainer Maria Rilke"
-date: 2026-04-30 01:51:43 +0900
+date: 2026-04-30 01:51:42 +0900
 original_url: "https://blog.naver.com/ewigenostalgie/224269873937"
 source: "Naver Blog"
 log_no: "224269873937"
