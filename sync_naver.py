@@ -4,6 +4,7 @@ import glob
 import html
 import feedparser
 import requests
+import unicodedata
 from bs4 import BeautifulSoup
 from markdownify import markdownify as md
 from datetime import datetime
@@ -25,6 +26,7 @@ def clean_text(text):
     if not text:
         return ""
     text = html.unescape(str(text))
+    text = unicodedata.normalize("NFKC", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
 
