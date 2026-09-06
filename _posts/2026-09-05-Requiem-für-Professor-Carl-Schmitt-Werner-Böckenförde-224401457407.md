@@ -68,7 +68,9 @@ Werner Böckenförde
 
 ​
 
-​
+[![](https://postfiles.pstatic.net/MjAyNjA5MDZfMjUz/MDAxNzg4NzA0MTYwMTA3.wMqFJYAk2AxQizNLQU64ipFMaXJeBfjA269XvTkcFIEg.QiMkMgKwMIv3RH0xfpHDqWE8V_hu-nFQMvaNQBC2U7cg.PNG/IMG%EF%BC%BF5073.PNG?type=w80_blur)](#)
+
+1968년 부활절의 슈미트
 
 슈미트의 말년은 어둡다. 1982년부터 치매 증세가 심해지기 시작했고, 정체불명의 존재가 자신을 괴롭힌다는 - 『카라마조프가의 형제들』에서 이반을 괴롭히는 악마가 떠오른다 - 망상도 나타났다. 그리고 일년 뒤인 1983년, 외동딸 아니마 슈미트가 스페인에서 먼저 죽었다. (그녀의 어머니이자 슈미트의 두 번째 아내였던 두슈카는 이미 1950년에 죽었다.) 慘慽 후 그의 정신적 증세는 더욱 악화되었고, 1984년 낙상으로 입원했다. 병원에서 그는 음식을 거부했다. 그리고 1985년 4월 7일, 부활절 월요일에 96세를 일기로 죽었다. 그는 플레텐베르크 가톨릭 묘지에 아내와 함께 묻혔다. 묘지에는 그 유명한 오디세이아의 도입부 구절을 참으로 슈미트 그 자신대로 변형한 ‘Kai nomon egnō - und er erkannte den Nomos -’가 적혀 있다.[5]
 
