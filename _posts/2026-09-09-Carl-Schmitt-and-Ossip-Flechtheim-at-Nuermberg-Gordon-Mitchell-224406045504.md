@@ -21,13 +21,13 @@ www.cambridge.org](https://www.cambridge.org/core/journals/german-law-journal/ar
 
 (...) **not sought to achieve but** **diagnosed.** (C. Schmitt)
 
-(...) you compare yourself to someone who diagnoses a plague. But didn’t you yourself spread a plague? (Kempner)
+(...) you compare yourself to someone who diagnoses a plague. But didn’t you yourself **spread** a plague? (Kempner)
 
 ​
 
-As a long-standing professor of jurisprudence, I cannot stop thinking. (CS)
+As a long-standing professor of jurisprudence, I cannot stop **thinking**. (CS)
 
-Nor should you. (K)
+Nor should **you**. (K)
 
 ---
 
