@@ -10,7 +10,7 @@ log_no: "224411242955"
 
 ---
 
-​
+[![](https://upload.wikimedia.org/score/c/1/c1kcr2605raif1d671xtl13k40wpokj/c1kcr260.svg)](#)
 
 Großer Gott, wir loben dich,
 
