@@ -114,8 +114,8 @@ log_no: "224412303644"
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-[1] Carl Schmitt, Tagebücher. Oktober 1912 bis Februar 1915, hg. Ernst Hüsmert, Akademie Verlag, 2005에서 발췌.
+[1] Carl Schmitt, *Tagebücher. Oktober 1912 bis Februar 1915*, hg. Ernst Hüsmert, Akademie Verlag, 2005. 222쪽에서 발췌.
 
-[2] Søren Kierkegaard, The Point of View, trans. Howard Hong and Edna Hong (Princeton: Princeton University Press, 1998), 281. 이 논문에서 재인용
+[2] Søren Kierkegaard, *The Point of View*, trans. Howard Hong and Edna Hong (Princeton: Princeton University Press, 1998), 281쪽. 이 논문에서 재인용
 
 [3] Vermischte Bemerkungen. <https://www.wittgensteinproject.org/w/index.php/Vermischte_Bemerkungen>
