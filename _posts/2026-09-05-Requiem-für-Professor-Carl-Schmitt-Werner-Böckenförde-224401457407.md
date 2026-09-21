@@ -18,7 +18,7 @@ log_no: "224401457407"
 
 ​
 
-Ziemlich genau seit Beginn der zweiten Lebenshälfte des 96 Jährigen war das Leben von Carl Schmitt gekennzeichnet von wachsender Einsamkeit. (...) Einsamkeit bedeutet nicht, daß man heimatlos ist.
+Ziemlich genau seit Beginn der zweiten Lebenshälfte des 96 Jährigen war das Leben von Carl Schmitt gekennzeichnet von wachsender Einsamkeit. (...) **Einsamkeit bedeutet nicht, daß man heimatlos ist.**
 
 ​
 
