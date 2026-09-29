@@ -16,7 +16,7 @@ log_no: "224421349547"
 
 **Über die Legalität von Hitlers Machtergreifung:**
 
-„Es ist nur interessant, dass das Spiel also von allen Seiten her in dieser Weise auf Hitler zu kam. Die Legalität hat ihn genötigt, sozusagen mit Bezug auf diese beiden Punkte auch Ermächtigungsgesetz, aber wie richtig gerechnet, erst sich die legale Macht geben zu lassen, Verfügung über Polizei usw., dann eine Wahl gewinnen, mit Hilfe also dieser Prämien auf den legalen Machtbesitz[,](http://Machtbesitz,) aber einer ganz knappe Mehrheit. Und nun kommt das eigentlich noch Fantastischere … dann ein verfassungsänderndes Gesetz zu bekommen … **da kann man wirklich tiefsinnig werden.**“
+„Es ist nur interessant, dass das Spiel also von allen Seiten her in dieser Weise auf Hitler zu kam. Die Legalität hat ihn genötigt, sozusagen mit Bezug auf diese beiden Punkte auch Ermächtigungsgesetz, aber wie richtig gerechnet, erst sich die legale Macht geben zu lassen, Verfügung über Polizei usw., dann eine Wahl gewinnen, mit Hilfe also dieser Prämien auf den legalen Machtbesitz, aber einer ganz knappe Mehrheit. Und nun kommt das eigentlich noch Fantastischere … dann ein verfassungsänderndes Gesetz zu bekommen … **da kann man wirklich tiefsinnig werden.**“
 
 ​
 
