@@ -18,7 +18,7 @@ log_no: "224434297088"
 
 ---
 
-우선 이 회칙만이 독일어라는 것, 수많은 회칙 문헌 중에서도 유일하게 제목부터 독일어라는 점은 정말 특기할만 하다. (대부분의 회칙은 아직까지도 라틴어로 작성된다) 또한 시대적 긴급성을 그대로 보여준다. 교황은 나치가 장악한 독일에 이렇게 직격한다. 「The passion and death of the Son of God has redeemed the world from the hereditary curse of sin and death. Faith in these truths, which in your country are today the butt of the cheap derision of Christ's enemies, belongs to the inalienable treasury of Christian revelation.」 (제25항: 이하의 항 번호는, 모두 영역본을 기준으로 한다.) 이 외에도 당시 나치 독일에서 이루어진 가톨릭 탄압과 교육 제한에 대한 책망도 (예: 제31항) 강한 어조로 들어 있지만, 가장 중요한 것은 역시 당시 독일이 가지고 있던 소위 ‘지도자원리’와 관련된 지도자 우상숭배일 것이다.
+우선 이 회칙만이 독일어라는 것, 수많은 회칙 문헌 중에서도 유일하게 제목부터 독일어라는 점은 정말 특기할만 하다. (대부분의 회칙은 아직까지도 라틴어로 작성된다) 또한 시대적 긴급성을 그대로 보여준다. 교황은 나치가 장악한 독일에 이렇게 직격한다. 「The passion and death of the Son of God has redeemed the world from the hereditary curse of sin and death. Faith in these truths, which in your country are today the butt of the cheap derision of Christ's enemies, belongs to the inalienable treasury of Christian revelation.」 (제25항: 이하의 항 번호는, 모두 영역본을 기준으로 한다.) 이 외에도 당시 나치 독일에서 이루어진 가톨릭 탄압과 교육 제한에 대한 책망도 (예: 제31항) 강한 어조로 들어 있지만, 가장 중요한 것은 역시 당시 독일이 가지고 있던 소위 ‘지도자원리’와 관련된 지도자 우상숭배 그리고 나치즘이 가지고 있는 인종 숭배에 대한 단죄일 것이다.
 
 ​
 
@@ -38,7 +38,7 @@ log_no: "224434297088"
 
 ​
 
-마지막 항에는 이것이 적혀있다. 「for the persecutors and oppressors, that the Father of light and mercy may enlighten them as He enlightened Saul on the road of Damascus.」 (제43항) 이 말은, 마치 예전에 본 Graf Schwerin von Schwanenfeld에 관한 Doku와 비슷한 울림을 주는 말이다. ‘Vor seiner Hinrichtung bestimmt er in seinem Testament, dass in seinem Forst in Ostpreußen ein Holzkreuz gesetzt werde, mit folgender Inschrift: Hier ruhen 1.400 Christen und Juden. Gott sei ihrer Seele und ihren Mörden gnädig.’
+마지막 항에는 이것이 적혀있다. 「for the persecutors and oppressors, that the Father of light and mercy may enlighten them as He enlightened Saul on the road of Damascus.」 (제43항) 이 말은, 마치 예전에 본 Graf Schwerin von Schwanenfeld에 관한 Doku와 비슷한 울림을 주는 말이다. ‘Vor seiner Hinrichtung bestimmt er in seinem Testament, dass in seinem Forst in Ostpreußen ein Holzkreuz gesetzt werde, mit folgender Inschrift: Hier ruhen 1.400 Christen und Juden. Gott sei ihrer Seele und ihren Mörden gnädig.’ 여기에 누가 감동하지 않겠는가.
 
 ​
 
