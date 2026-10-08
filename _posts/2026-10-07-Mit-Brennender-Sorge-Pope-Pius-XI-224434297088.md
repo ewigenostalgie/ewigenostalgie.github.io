@@ -42,4 +42,4 @@ log_no: "224434297088"
 
 ​
 
-(덧붙여 웹사이트[https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf\_p-xi\_enc\_14031937\_mit-brennender-sorge.html] 에 게시되어 있는 이 회칙의 영역본 제37항 ‘profit by their trials and difficulties tO renew their zeal’에서 ‘tO’라는 오타를 발견하여 바티칸에 제보하였다.)
+(덧붙여 웹사이트[https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf\_p-xi\_enc\_14031937\_mit-brennender-sorge.html] 에 게시되어 있는 이 회칙의 영역본 제37항 ‘profit by their trials and difficulties tO renew their zeal’에서 ‘tO’라는 오타를 발견하여 바티칸에 제보하였다. / 9월 8일 추가: 바티칸 Dicastery for Communication에서 이를 수정했다는 이메일을 받았다.)
