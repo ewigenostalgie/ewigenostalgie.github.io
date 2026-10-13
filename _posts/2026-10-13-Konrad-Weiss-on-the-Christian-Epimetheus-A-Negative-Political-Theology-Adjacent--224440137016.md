@@ -17,6 +17,10 @@ by Russell A. Berman
 
 insights.telosinstitute.net](https://insights.telosinstitute.net/p/konrad-weiss-on-the-christian-epimetheus)
 
+[![](https://postfiles.pstatic.net/MjAyNjEwMTNfMTA5/MDAxNzkxODY0NjMxMzEx.PZPhEz-9YGgRRepx2e_Rsc5hcbOB-e1dmbaUDRVjW9Qg.6caLPVAnmfR9Ji9JsxCBIdX3LetQsJAizCpVsCKHasYg.JPEG/IMG%EF%BC%BF5630.JPG?type=w80_blur)](#)
+
+Pietà (Michelangelo)
+
 Weiss의 ‘그리스도교적 에피메테우스(christlicher Epimetheus)’. 슈미트가 전후 초라해진 (그러나 결코 영향력에 있어서는 쇠퇴하지 않은) 자신을 그렇게 묘사했다. 자연히 Weiss와 그의 작품에 관심이 가는 것은 당연지사. 불행히도 영역본이 아직 나오지 않았다. 그러나 놀랍게도 올해 5월 작성된 이 짧은 에세이에서 ‘A translation of the full essay is in preparation; an English version of the conclusion follows.’라는 언급을 미루어 보아, 곧 영역본이 출간될 것이라는 기대를 하고 있다. 속히 보고 싶다. (나중에 독일어 실력이 쌓인 뒤 Weiss의 작품을 읽을 수준이 된다면, 기쁘게 받아들일 수 있을 것이다.) 왜냐하면 비록 이 짧은 글이지만 Weiss가 제시한 여러 개념에서 나는 큰 위로를 얻었기 때문이다.
 
 ​
