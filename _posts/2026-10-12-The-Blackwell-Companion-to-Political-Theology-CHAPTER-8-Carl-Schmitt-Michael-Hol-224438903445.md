@@ -1,6 +1,6 @@
 ---
 title: "「The Blackwell Companion to Political Theology: CHAPTER 8 Carl Schmitt」 (Michael Hollerich)"
-date: 2026-10-12 12:44:45 +0900
+date: 2026-10-12 12:44:44 +0900
 original_url: "https://blog.naver.com/ewigenostalgie/224438903445"
 source: "Naver Blog"
 log_no: "224438903445"

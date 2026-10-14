@@ -1,6 +1,6 @@
 ---
 title: "'Ist der Parlamentarismus noch zu retten?' Carl Schmitt im Gespräch"
-date: 2026-09-23 23:10:04 +0900
+date: 2026-09-23 23:10:03 +0900
 original_url: "https://blog.naver.com/ewigenostalgie/224421349547"
 source: "Naver Blog"
 log_no: "224421349547"

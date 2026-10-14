@@ -1,6 +1,6 @@
 ---
 title: "『Ex Captivitate Salus』 (Carl Schmitt, trans. Matthew Hannah)"
-date: 2026-09-20 03:26:06 +0900
+date: 2026-09-20 03:26:05 +0900
 original_url: "https://blog.naver.com/ewigenostalgie/224417419874"
 source: "Naver Blog"
 log_no: "224417419874"

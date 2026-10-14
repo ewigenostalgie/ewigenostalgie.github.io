@@ -1,6 +1,6 @@
 ---
 title: "「Konrad Weiss on the Christian Epimetheus: A Negative Political Theology Adjacent to Carl Schmitt」"
-date: 2026-10-13 12:57:37 +0900
+date: 2026-10-13 12:57:36 +0900
 original_url: "https://blog.naver.com/ewigenostalgie/224440137016"
 source: "Naver Blog"
 log_no: "224440137016"

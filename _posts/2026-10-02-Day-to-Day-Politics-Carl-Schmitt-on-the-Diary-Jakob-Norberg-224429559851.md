@@ -1,6 +1,6 @@
 ---
 title: "「Day-to-Day Politics: Carl Schmitt on the Diary」 (Jakob Norberg)"
-date: 2026-10-02 16:58:05 +0900
+date: 2026-10-02 16:58:04 +0900
 original_url: "https://blog.naver.com/ewigenostalgie/224429559851"
 source: "Naver Blog"
 log_no: "224429559851"

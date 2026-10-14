@@ -1,6 +1,6 @@
 ---
 title: "「Mit Brennender Sorge」 (Pope Pius XI)"
-date: 2026-10-07 17:01:01 +0900
+date: 2026-10-07 17:01:00 +0900
 original_url: "https://blog.naver.com/ewigenostalgie/224434297088"
 source: "Naver Blog"
 log_no: "224434297088"

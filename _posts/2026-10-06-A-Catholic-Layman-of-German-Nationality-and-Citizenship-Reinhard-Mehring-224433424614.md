@@ -1,6 +1,6 @@
 ---
 title: "「A “Catholic Layman of German Nationality and Citizenship”?」 (Reinhard Mehring)"
-date: 2026-10-06 22:04:24 +0900
+date: 2026-10-06 22:04:23 +0900
 original_url: "https://blog.naver.com/ewigenostalgie/224433424614"
 source: "Naver Blog"
 log_no: "224433424614"
