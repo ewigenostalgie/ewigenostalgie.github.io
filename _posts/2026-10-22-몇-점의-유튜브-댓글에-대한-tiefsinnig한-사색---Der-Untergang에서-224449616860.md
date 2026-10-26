@@ -1,6 +1,6 @@
 ---
 title: "몇 점의 유튜브 댓글에 대한 tiefsinnig한 사색 - Der Untergang에서"
-date: 2026-10-22 01:55:08 +0900
+date: 2026-10-22 01:55:07 +0900
 original_url: "https://blog.naver.com/ewigenostalgie/224449616860"
 source: "Naver Blog"
 log_no: "224449616860"

@@ -1,6 +1,6 @@
 ---
 title: "「KONRAD WEISS’S DER CHRISTLICHE EPIMETHEUS: A POLITICAL THEOLOGY OF 1933?」 (Russel A. Berman)"
-date: 2026-10-15 11:12:42 +0900
+date: 2026-10-15 11:12:41 +0900
 original_url: "https://blog.naver.com/ewigenostalgie/224442353229"
 source: "Naver Blog"
 log_no: "224442353229"

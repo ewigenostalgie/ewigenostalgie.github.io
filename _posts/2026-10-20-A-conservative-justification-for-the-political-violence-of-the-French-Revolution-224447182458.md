@@ -1,6 +1,6 @@
 ---
 title: "「A conservative justification for the political violence of the French Revolution?」 (Sandelin)"
-date: 2026-10-20 01:03:03 +0900
+date: 2026-10-20 01:03:02 +0900
 original_url: "https://blog.naver.com/ewigenostalgie/224447182458"
 source: "Naver Blog"
 log_no: "224447182458"
