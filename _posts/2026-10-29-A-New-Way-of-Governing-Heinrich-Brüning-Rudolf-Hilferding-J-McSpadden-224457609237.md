@@ -14,11 +14,26 @@ log_no: "224457609237"
 
 **Bundesarchiv Bild 183-1989-0630-504, Heinrich Brüning**
 
+<https://www.cambridge.org/core/journals/central-european-history/article/abs/new-way-of-governing-heinrich-bruning-rudolf-hilferding-and-crossparty-cooperation-during-the-waning-years-of-the-weimar-republic-19301932/D17D6EFB0D536CC574FBECCC600949B6>
+
+[![](https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fstatic.cambridge.org%2Fcovers%2FCCC_0_0_0%2Fcentral_european%2520history.jpg%3Fsend-full-size-image%3Dtrue%22&type=ff120)](https://www.cambridge.org/core/journals/central-european-history/article/abs/new-way-of-governing-heinrich-bruning-rudolf-hilferding-and-crossparty-cooperation-during-the-waning-years-of-the-weimar-republic-19301932/D17D6EFB0D536CC574FBECCC600949B6)
+[**“A New Way of Governing”: Heinrich Brüning, Rudolf Hilferding, and Cross-Party Cooperation during the Waning Years of the Weimar Republic, 1930–1932 | Central European History | Cambridge Core**
+
+“A New Way of Governing”: Heinrich Brüning, Rudolf Hilferding, and Cross-Party Cooperation during the Waning Years of the Weimar Republic, 1930–1932 - Volume 53 Issue 3
+
+www.cambridge.org](https://www.cambridge.org/core/journals/central-european-history/article/abs/new-way-of-governing-heinrich-bruning-rudolf-hilferding-and-crossparty-cooperation-during-the-waning-years-of-the-weimar-republic-19301932/D17D6EFB0D536CC574FBECCC600949B6)
+
+​
+
+​
+
 As this article has shown, toleration itself was underpinned by an unlikely close relationship between a devout rightwing Catholic and a Marxist theoretician. (611-2쪽)
+
+​
 
 ---
 
-이 글을 통해 여러가지를 얻을 수 있지만, 이를 정리하면 다음과 같다. 첫째, 한 개인으로서의 브뤼닝이라는 인물 자체의 인품이다. 이것은 이상적인 가톨릭적 검소함과, 그리스도교의 보편적 명령으로서의 이웃 사랑을 드러낸다. 한 보수 가톨릭 정치인과 마르크스주의적 사민당 의원의 기묘한 우정은 대단하다. 이 글에서 보여주는 후자의 모습이 특히 중요한 이유는, 그 이웃에 있어서 자신과 이념적 지향이 완전히 다른 사람 역시 당연히 포함되었다는 사실이다. 둘째, 정치인으로서의 브뤼닝에 대해 가해지는 일방적인 독해에 대한 공정한 읽기와, 오히려 그가 바이마르 공화국을 지키려고 했지, 몇몇 사학자들이 제시하는 바와 같이 그가 의도적으로 공화국을 무너뜨리려고 한 것은 아니라는 것이다. 첫번째와 두번째 모두 중요하다. 개인적으로 두번째는 언제나 사학적인 논의가 되는 것이지만, 학계의 악의적이라고 할 정도로 일방적인 견해에 대해 이 논문이 제시하는 면밀한 근거와 반박은 매우 유익하다. 그러나 가장 중요한 것은 나에게 첫번째로 다가온다. 이것은 하나의 가톨릭적 ‘전형적 예시(archetype)’를 보여준다. 경망스럽고 저질스러운 요즘의 정치인이 제공하는 그 자신의 인격적인 표상과 달리, 브뤼닝이 제공하는 개인적인 인품은 존경할만 하다. (그러한 점에서 바이마르 시기 독일과 연방공화국의 독일에서 각각 브뤼닝과 아데나워라는 가톨릭 정치인이 여러 영향력을 행사함과 동시에 그러한 종교적 배경이 제공한 개인적인 성향과 믿음은 매우 중요한 것이다.) 덧붙여 곧 멸망할 바이마르 공화국의 위기를 간파하고, 당내 좌파를 통제하려고 했던 힐퍼딩의 ‘관용정책’ 역시 높이 평가할 만하다.
+이 글을 통해 여러가지를 얻을 수 있지만, 이를 정리하면 다음과 같다. 첫째, 한 개인으로서의 브뤼닝이라는 인물 자체의 인품이다. 이것은 이상적인 가톨릭적 , 그리스도교의 보편적 명령으로서의 이웃 사랑을 드러낸다. 한 보수 가톨릭 정치인과 마르크스주의적 사민당 의원의 기묘한 우정은 대단하다. 이 글에서 보여주는 후자의 모습이 특히 중요한 이유는, 그 이웃에 있어서 자신과 이념적 지향이 완전히 다른 사람 역시 당연히 포함되었다는 사실이다. 둘째, 정치인으로서의 브뤼닝에 대해 가해지는 일방적인 독해에 대한 공정한 읽기와, 오히려 그가 바이마르 공화국을 지키려고 했지, 몇몇 사학자들이 제시하는 바와 같이 그가 의도적으로 공화국을 무너뜨리려고 한 것은 아니라는 것이다. 첫번째와 두번째 모두 중요하다. 개인적으로 두번째는 언제나 사학적인 논의가 되는 것이지만, 학계의 악의적이라고 할 정도로 일방적인 견해에 대해 이 논문이 제시하는 면밀한 근거와 반박은 매우 유익하다. 그러나 가장 중요한 것은 나에게 첫번째로 다가온다. 이것은 하나의 가톨릭적 ‘전형적 예시(archetype)’를 보여준다. 경망스럽고 저질스러운 요즘의 정치인이 제공하는 그 자신의 인격적인 표상과 달리, 브뤼닝이 제공하는 개인적인 인품은 존경할만 하다. (그러한 점에서 바이마르 시기 독일과 연방공화국의 독일에서 각각 브뤼닝과 아데나워라는 가톨릭 정치인이 여러 영향력을 행사함과 동시에 그러한 종교적 배경이 제공한 개인적인 성향과 믿음은 매우 중요한 것이다.) 덧붙여 곧 멸망할 바이마르 공화국의 위기를 간파하고, 당내 좌파를 통제하려고 했던 힐퍼딩의 ‘관용정책’ 역시 높이 평가할 만하다.
 
 ​
 
@@ -101,3 +116,7 @@ In reconstructing the relationship between Hilferding and Brüning during the er
 ​
 
 이러한 모든 시도를 보면, 나는 이념적으로 거의 대극에 있던 보수적 가톨릭과 사민당 맑스주의자가 그 ‘res dura’를 겪으며 보여준 정치적인 타협과 - 이것이야말로, 바이마르 의회주의를 양극단 세력으로부터 지키기 위한 애처로운 시도 중 하나였다 - , 그리고 이것이 정치가 우리에게 구원을 주지 않는다는 점에서 더욱 더 중요한데, 자신의 계명을 엄숙하게 지키는 한 신자의 모습을 보여준다. 그는 비록 저 맑스주의자와 이념적 성향은 다를지언정, 그가 생을 마감하기 직전까지 온갖 금전적 도움과 그를 프랑스에서 구출하기 위해 거의 자신이 가용할 수 있는 모든 인맥을 총동원해 그를 데리고 나오려고 했다. 심지어 그의 생애가 비극적으로 끝난 이후에도 그의 유족을 잊지 않고 계속 도와주었다. ‘둘째도 이와 같다’ - 이 말을 잊지 말라.
+
+[![](https://postfiles.pstatic.net/MjAyNjEwMjlfMjAx/MDAxNzkzMjQyNzY2NzMw.Jb1Ggmk74jG3n7biXcpiX2Q2BDhOS5F9ioOLh8-Woogg.fRNsuIq-g_fnUlcwTxBYkDsBKbaADPa1AzUcRcAH7PUg.JPEG/IMG%EF%BC%BF5974.JPG?type=w80_blur)](#)
+
+1930년 총선 때의 중앙당 포스터. NSDAP와 KPD가 ‘Chaos', 'Terror', 'Aufruhr'를 벌이며 다리 밑에서 설치고 있다. 이것이 또한 우리 시대의 상징적인 이미지로서 재전유될 수 있겠다.
