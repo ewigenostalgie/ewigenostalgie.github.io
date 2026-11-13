@@ -64,10 +64,6 @@ White Nights (Penguin Little Black Classics)
 
 ​
 
-​
-
-​
-
 왜…? 도스토옙스키도 초두에 투르게네프의 시구를 인용하지 않는가?
 
 ​
@@ -83,3 +79,25 @@ Near your heart? . . .
 ​
 
 때로는 물음표에 확고하게 대답할 때가 필요한 법이다.
+
+​
+
+​
+
+여담: 영역된 우리들의 저 주인공 'dreamer'를 보면, 우리 부모님 세대의 유행가였던 Richard Sanderson의 'Reality'가 생각난다.
+
+​
+
+Dreams are my reality
+
+The only kind of real fantasy
+
+Illusions are a common thing
+
+I try to live in dreams
+
+It seems as if it's meant to be
+
+​
+
+유행가요조차도 일루젼은 흔한 것이라고 말한다!
