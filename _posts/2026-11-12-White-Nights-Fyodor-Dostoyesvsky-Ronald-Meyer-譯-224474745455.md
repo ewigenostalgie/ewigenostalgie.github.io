@@ -84,6 +84,8 @@ Near your heart? . . .
 
 ​
 
+​
+
 여담: 영역된 우리들의 저 주인공 'dreamer'를 보면, 우리 부모님 세대의 유행가였던 Richard Sanderson의 'Reality'가 생각난다.
 
 ​
