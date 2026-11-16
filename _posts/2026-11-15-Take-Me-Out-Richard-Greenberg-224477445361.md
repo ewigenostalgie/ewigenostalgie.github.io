@@ -158,6 +158,10 @@ DARREN: . . . I’m offended. Isn’t that enough?
 
 그렇다면 Kippy의 조작된 편지는 도대체 무엇인가? 아니, 사실 연쇄적으로 따라가보자면 Darren의 복귀는 결국 Davey의 죽음을 초래하지 않았는가… 그 결과 그 누구도, 그 누구도 구원되지 않는 듯한 세계를 우리에게 보여주지 않았는가. Kippy는 자신의 자애로운 이해력이 어디까지 미치는지에 대한 한계를 파악하지 못하고, 과신했는가. 그의 선의에서 나온 그 편지는 - 당연히 좀 덜떨어지는 것 같은 Shane이 정황상 글을 쓸 수는 없을 것 같은데 - 누구를 위한 것이었는가? 선한 의도가 - 멸망을 종종 초래하고는 한다. 그는 이제 더 이상 그리스도가 아니다. 그래서 이 이야기는, 솔직히 끔찍하다.
 
+​
+
+(이렇게 길게 굳이 이 서사의 주제나 주인공에게서 벗어나 ‘내레이터’인 Kippy를 분석한 것은 아마도 그의 인물적 묘사에서 드러나는 강한 자기동일시인 것 같기도 하다. 이것은 이 윤동주에게도 적용된 바와 비슷하다. 생각해보면 나는 삶에서, 그러니까 집단 속에서 언제나 Kippy에 가까운 인물이었다.)
+
 □ Mason 對 Kawabata
 
 Mason은 제3막의 마지막 장면에서 보이듯, 아마 Darren과의 모종의 관계로 발전하는 암시가 보인다. 이 점은 우선 나의 관심사가 아니다. 반면 나의 관심사는 Mason의 모놀로그이다. 그가 야구에 대해 이것을 민주주의에 비교하며 찬탄한 모놀로그(35-8쪽)은 주목할 만하다. ‘I continued to watch, and I have come (with no little excitement) to understand that baseball is a perfect metaphor for hope in a democratic society.’ (35쪽) 그런데 흥미롭게도, Kawabata의 일본어 독백 - 친절하게도 자애로운 Kippy의 제공을 통해 영어 해석이 주어진 - 을 보자. 여기서는 끔찍하게 로마자로 전사된 일본어는 생략하고, Kippy의 영어 해석을 인용한다. (일본어에 대한 해석, 여기에 대해서는… 좀 복잡하다. 그가 정말 모든 것을 철저하게 번역하는지, 아니면 과장하는지 - 그러니까, 전형적인 스테레오타입 - 알쏭달쏭하다. 기묘하게 섞여 있다…) ‘He says for many, baseball is a metaphor - But for him, it’s all, it’s everything - When he wins, he lives; when he loses, he dies. Strike one, strike two, strike three. “Tonight I lost. Tonight I am a dead man.”’ (58쪽) 야구 선수가 아닌, 관객인 누군가에게는 야구는 하나의 메타포이다. 그것도 자신이 생각하는 그 아름다운 민주주의와 제도가 잘 구현되는 - 물론 나는 여기에 심각한 의문이 있다. 그러나 이 글은 정치철학적 비평이 아니라 문학적 비평이기에 적지 않는다. - 것으로 유비한다. 여기서 그는 분명 이상주의적이다. 반면 저 기나긴 태평양을 건너 온, 영어를 잘 구사하지 못하는 이에게 그러한 메타포의 사치는 없다. 정말로 없다! 왜냐하면 그런 이에게 야구는 모든 것(everything)이기 때문이다. 거기에 자신의 목숨이 달려 있다.
@@ -286,4 +290,4 @@ Davey여, 물론 그렇다. 우리는 누구나 악마를 속에 가지고 있�
 
 ​
 
-Horche und leide!
+Horche und leide! (C. Schmitt)
