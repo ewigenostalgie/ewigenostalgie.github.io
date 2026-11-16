@@ -1,5 +1,5 @@
 ---
-title: "Gesang des Sechzigjährigen (Carl Schmitt)"
+title: "「Gesang des Sechzigjährigen」 (Carl Schmitt)"
 date: 2026-11-10 19:40:01 +0900
 original_url: "https://blog.naver.com/ewigenostalgie/224472030340"
 source: "Naver Blog"
