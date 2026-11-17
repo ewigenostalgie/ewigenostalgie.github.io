@@ -1,6 +1,6 @@
 ---
 title: "“A New Way of Governing”: Heinrich Brüning, Rudolf Hilferding,[...] (J. McSpadden)"
-date: 2026-10-29 11:35:24 +0900
+date: 2026-10-29 11:35:23 +0900
 original_url: "https://blog.naver.com/ewigenostalgie/224457609237"
 source: "Naver Blog"
 log_no: "224457609237"
