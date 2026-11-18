@@ -26,6 +26,22 @@ log_no: "224481341655"
 
 ​
 
+[![](https://postfiles.pstatic.net/MjAyNjExMThfMTA1/MDAxNzk0OTY4MDUyOTE4.80-Squt9qn76EuB51SDwypfm7zcUywlFXrTzdZxkkpUg.zHGWMkUAFkJc2KwP0gmX11gH1UBAU__6XYon0RGyAQwg.JPEG/IMG%EF%BC%BF6360.jpg?type=w80_blur)](#)
+
+소개문에 나온 역자의 이 소개는 특별히 사진까지 인용해둘 가치가 있다. 윤동주의 시집 이름 '하늘과 바람과 별과 시'에서 시작하는 이 세련된 요약은 그의 시의 여러 주제를 집약적으로 정리한다. 그리고 그 문단 밑 'Sadly'로 시작하여 '별 헤는 밤'의 영역 인용으로 마무리되는 이 부분은, 아마 영단어로 치면 'poignant'라는 영어 어감으로만 표현될 수 있을 것 같다.
+
+​
+
+'Yet his poems sing of hope and longing-longing for his lost self and nation, longing for his mother and homeland, longing for freedom and the eternity that transcend the conditions under which he had to live. The title of his intended poetry collection, "The Sky, Wind, Stars, and Poems", demonstrates how deeply he longed for space and freedom (sky), how affected he was by the forces of life (like the wind), and how his lofty dreams and high hopes shone like stars in the dark sky. And he juxtaposed his poems among such vast, free, and eternal elements. And he hoped for the day when he could "be happy and hold hands again (with friends) on some other morning" (Street Flowing).
+
+Sadly, Yoon Dong-joo never saw the morning when he would be happy again nor his own poems published as a collection, let alone enjoy the popularity and admiration his poems now receive. But he did foresee that:
+
+*... when winter has passed and spring comes even to my star, like the grass growing green over the graves, on the hill where my name is buried, grass will grow tall and thick with pride.*
+
+—One Night I Count the Stars (November 5, 1941)' (xvii쪽)
+
+​
+
 사실 영어 모국어 화자에게 느끼는 분노와 부러움은 이렇게 영역된 윤동주의 시를 통해서 자연스럽게 해소된다. 영어 모국어 화자가 이렇게 번역된 그의 시를 읽을 때, 원어의 오묘한 느낌을 그대로 알 수 있을까! 물론 없을 것이다. 한국어를 배우지 않는 이상은. 거기에서 나는 내 모국어에 대한 애정을 다시금 확인한다. 그리고 그쯤하면 됐다. 영역된 시를 읽으면서 옆에 원본을 펼쳐두고 대조하면서 읽었는데, 한국어 시를 영어 어순에 맞게 자연스럽게 번역하는 과정에서 많은 원문의 행의 나눔이나 표현이 바뀌었다. 매우 고통스러운 경험이었다. 사실상 거의 모든 시에서 이것이 발견되었다. 지적하자면 이 책을 아예 통째로 영어와 한국어를 대조하면 좋을 정도이다. (당연하지만 번역가가 오역했다는 것은 아니다. 이것은 언어 차이에서 기인하는 물리적인 한계이다.) 물론 전체적인 뜻은 통하지만, 이렇게 짧은 시에서의 묘미는 이미지 자체를 제공하는 것 이상에 있다. 이것은 철학 책이 아니다.
 
 ​
