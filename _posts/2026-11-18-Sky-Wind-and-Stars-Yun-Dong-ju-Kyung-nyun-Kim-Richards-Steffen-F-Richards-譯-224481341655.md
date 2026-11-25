@@ -1,6 +1,6 @@
 ---
 title: "『Sky, Wind, and Stars』 (Yun Dong-ju, Kyung-nyun Kim Richards, Steffen F. Richards 譯)"
-date: 2026-11-18 02:31:56 +0900
+date: 2026-11-18 02:31:55 +0900
 original_url: "https://blog.naver.com/ewigenostalgie/224481341655"
 source: "Naver Blog"
 log_no: "224481341655"
