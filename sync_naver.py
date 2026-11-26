@@ -1,24 +1,26 @@
 import os
 import re
-import glob
 import html
+import unicodedata
+from concurrent.futures import ThreadPoolExecutor
+from pathlib import Path
+from datetime import datetime, timezone, timedelta
+from email.utils import parsedate_to_datetime
+
 import feedparser
 import requests
-import unicodedata
 from bs4 import BeautifulSoup
 from markdownify import markdownify as md
-from datetime import datetime
-from email.utils import parsedate_to_datetime
 
 RSS_URL = "https://rss.blog.naver.com/ewigenostalgie.xml"
 BLOG_ID = "ewigenostalgie"
 POSTS_DIR = "_posts"
 
-os.makedirs(POSTS_DIR, exist_ok=True)
-
 HEADERS = {
     "User-Agent": "Mozilla/5.0",
     "Referer": f"https://blog.naver.com/{BLOG_ID}",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
 }
 
 
@@ -27,8 +29,7 @@ def clean_text(text):
         return ""
     text = html.unescape(str(text))
     text = unicodedata.normalize("NFKC", text)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
+    return re.sub(r"\s+", " ", text).strip()
 
 
 def slugify(text):
@@ -43,10 +44,10 @@ def escape_yaml(text):
 
 
 def extract_blog_info(url):
-    m = re.search(r"blog\.naver\.com/([^/?#]+)/(\d+)", url)
-    if not m:
+    match = re.search(r"(?:https?://)?(?:m\.)?blog\.naver\.com/([^/?#]+)/(\d+)", url)
+    if not match:
         return BLOG_ID, None
-    return m.group(1), m.group(2)
+    return match.group(1), match.group(2)
 
 
 def post_view_url(blog_id, log_no):
@@ -62,84 +63,93 @@ def post_view_url(blog_id, log_no):
 
 def fetch_naver_body(link):
     blog_id, log_no = extract_blog_info(link)
-
     if not log_no:
         return ""
 
-    url = post_view_url(blog_id, log_no)
+    urls = [
+        post_view_url(blog_id, log_no),
+        f"https://m.blog.naver.com/{blog_id}/{log_no}",
+    ]
+    for url in urls:
+        try:
+            res = requests.get(url, headers=HEADERS, timeout=20)
+            res.raise_for_status()
+            soup = BeautifulSoup(res.text, "html.parser")
+            for tag in soup(["script", "style", "noscript"]):
+                tag.decompose()
 
-    try:
-        res = requests.get(url, headers=HEADERS, timeout=20)
-        res.raise_for_status()
-    except Exception:
-        return ""
-
-    soup = BeautifulSoup(res.text, "html.parser")
-
-    for tag in soup(["script", "style", "noscript"]):
-        tag.decompose()
-
-    body = None
-    for selector in [
-        "div.se-main-container",
-        "div#postViewArea",
-        "div.post_ct",
-        "div.se_component_wrap",
-    ]:
-        body = soup.select_one(selector)
-        if body:
-            break
-
-    if not body:
-        return ""
-
-    body_md = md(str(body), heading_style="ATX")
-    body_md = re.sub(r"\n{3,}", "\n\n", body_md).strip()
-
-    return body_md
+            for selector in [
+                "div.se-main-container",
+                "div#postViewArea",
+                "div.post_ct",
+                "div.se_component_wrap",
+            ]:
+                body = soup.select_one(selector)
+                if body is None:
+                    continue
+                body_md = md(str(body), heading_style="ATX")
+                body_md = re.sub(r"\n{3,}", "\n\n", body_md).strip()
+                if body_md:
+                    return body_md
+        except Exception as exc:
+            print(f"Fetch failed ({log_no}): {type(exc).__name__}")
+    return ""
 
 
-def remove_old_file_for_log_no(log_no, new_path):
-    if not log_no:
-        return
-
-    for path in glob.glob(os.path.join(POSTS_DIR, f"*{log_no}.md")):
-        if path != new_path:
-            os.remove(path)
-
-
-def main():
-    feed = feedparser.parse(RSS_URL)
-
-    for entry in feed.entries:
-        title = entry.get("title", "Untitled")
-        link = entry.get("link", "")
-
-        blog_id, log_no = extract_blog_info(link)
-        if not log_no:
+def existing_posts():
+    """Read Naver IDs from front matter, including legacy filenames."""
+    posts = {}
+    for path in sorted(Path(POSTS_DIR).glob("*.md")):
+        content = path.read_text(encoding="utf-8")
+        header = content.split("\n---\n", 1)[0]
+        match = re.search(
+            r'^original_url:\s*["\']?(https?://(?:m\.)?blog\.naver\.com/[^\s"\']+)',
+            header,
+            re.M,
+        )
+        if not match:
             continue
+        blog_id, log_no = extract_blog_info(match.group(1))
+        if blog_id == BLOG_ID and log_no:
+            posts.setdefault(log_no, []).append((path, content))
+    return posts
 
-        published = entry.get("published", "")
-        if published:
-            dt = parsedate_to_datetime(published)
-        else:
-            dt = datetime.now()
 
-        date_str = dt.strftime("%Y-%m-%d")
-        datetime_str = dt.strftime("%Y-%m-%d %H:%M:%S %z")
+def replace_body(content, body):
+    """Preserve metadata, original link, date and existing page path."""
+    parts = content.split("\n---\n", 2)
+    if len(parts) != 3 or not parts[0].startswith("---\n"):
+        return None
+    if not parts[1].strip().startswith("원문:"):
+        return None
+    return "\n---\n".join(parts[:2]) + "\n---\n\n" + body + "\n"
 
-        slug = slugify(title)
-        filename = f"{date_str}-{slug}-{log_no}.md"
-        filepath = os.path.join(POSTS_DIR, filename)
 
-        body = fetch_naver_body(link)
+def write_if_changed(path, content, previous=None):
+    if content == previous:
+        return False
+    path.write_text(content, encoding="utf-8")
+    print(f"Updated: {path}")
+    return True
 
-        if not body:
-            body = entry.get("summary", "")
 
-        original_url = f"https://blog.naver.com/{blog_id}/{log_no}"
-
-        content = f"""---
+def new_post(entry, log_no, body):
+    title = entry.get("title", "Untitled")
+    published = entry.get("published", "")
+    if not published:
+        print(f"Missing publication date; skipped: {log_no}")
+        return False
+    try:
+        dt = parsedate_to_datetime(published)
+    except (ValueError, TypeError, OverflowError):
+        print(f"Invalid publication date; skipped: {log_no}")
+        return False
+    date_str = dt.strftime("%Y-%m-%d")
+    datetime_str = dt.strftime("%Y-%m-%d %H:%M:%S %z")
+    filename = f"{date_str}-{slugify(title)}-{log_no}.md"
+    filepath = Path(POSTS_DIR) / filename
+    original_url = f"https://blog.naver.com/{BLOG_ID}/{log_no}"
+    content = f"""---
 title: "{escape_yaml(title)}"
 date: {datetime_str}
 original_url: "{original_url}"
@@ -153,15 +163,72 @@ log_no: "{log_no}"
 
 {body}
 """
+    return write_if_changed(filepath, content)
 
-        remove_old_file_for_log_no(log_no, filepath)
 
-        with open(filepath, "w", encoding="utf-8") as f:
-            f.write(content)
+def main():
+    Path(POSTS_DIR).mkdir(parents=True, exist_ok=True)
+    posts = existing_posts()
+    feed = feedparser.parse(RSS_URL)
+    recent = {}
+    for entry in feed.entries:
+        blog_id, log_no = extract_blog_info(entry.get("link", ""))
+        if blog_id == BLOG_ID and log_no:
+            recent[log_no] = entry
 
-        print(f"Synced: {filepath}")
+    if not recent:
+        print("WARNING: RSS returned no usable entries.")
 
-    print("RSS sync complete.")
+    # Recent RSS entries are fetched every run; the full archive is fetched
+    # once per Korean calendar day and whenever the workflow is run manually.
+    today = datetime.now(timezone(timedelta(hours=9))).date().isoformat()
+    state = Path(POSTS_DIR) / ".naver-last-full-refresh"
+    last_full = state.read_text(encoding="utf-8").strip() if state.exists() else ""
+    full = os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch" or last_full != today
+    targets = list(recent)
+    if full:
+        targets += [log_no for log_no in posts if log_no not in recent]
+
+    print(f"Mode: {'full archive' if full else 'recent RSS'}; targets: {len(targets)}")
+    updated = failed = fetched = 0
+
+    def fetch(log_no):
+        return fetch_naver_body(f"https://blog.naver.com/{BLOG_ID}/{log_no}")
+
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        for log_no, body in zip(targets, executor.map(fetch, targets)):
+            if not body:
+                failed += 1
+                print(f"WARNING: No original body for {log_no}; existing content kept.")
+                continue
+            fetched += 1
+            if log_no in posts:
+                for path, previous in posts[log_no]:
+                    content = replace_body(previous, body)
+                    if content is None:
+                        failed += 1
+                        print(f"WARNING: Unrecognized archive format; kept {path}")
+                        continue
+                    # RSS titles may change; retain the existing filename.
+                    if log_no in recent and recent[log_no].get("title"):
+                        title = escape_yaml(recent[log_no]["title"])
+                        header, rest = content.split("\n---\n", 1)
+                        header = re.sub(
+                            r"(?m)^title:.*$", lambda _: f'title: "{title}"', header, count=1
+                        )
+                        content = header + "\n---\n" + rest
+                    updated += int(write_if_changed(path, content, previous))
+            elif log_no in recent:
+                updated += int(new_post(recent[log_no], log_no, body))
+
+    # Record a daily attempt, not a claim that all posts were accessible.
+    # If every fetch failed, retain the marker so the next run can retry.
+    if full and fetched and last_full != today:
+        state.write_text(today + "\n", encoding="utf-8")
+
+    print(f"Sync complete: {len(targets)} targets, {fetched} fetched, {updated} changed, {failed} failures.")
+    if (targets and not fetched) or (not targets and not recent):
+        raise SystemExit("No original bodies fetched; retry required.")
 
 
 if __name__ == "__main__":
