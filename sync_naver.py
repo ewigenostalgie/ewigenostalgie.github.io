@@ -188,9 +188,13 @@ def main():
     targets = list(recent)
     if full:
         targets += [log_no for log_no in posts if log_no not in recent]
+    else:
+        # Retry unresolved duplicates even between full refreshes.
+        targets += [log_no for log_no, files in posts.items()
+                    if len(files) > 1 and log_no not in recent]
 
     print(f"Mode: {'full archive' if full else 'recent RSS'}; targets: {len(targets)}")
-    updated = failed = fetched = 0
+    updated = failed = fetched = removed = 0
 
     def fetch(log_no):
         return fetch_naver_body(f"https://blog.naver.com/{BLOG_ID}/{log_no}")
@@ -203,21 +207,32 @@ def main():
                 continue
             fetched += 1
             if log_no in posts:
-                for path, previous in posts[log_no]:
-                    content = replace_body(previous, body)
-                    if content is None:
-                        failed += 1
-                        print(f"WARNING: Unrecognized archive format; kept {path}")
-                        continue
-                    # RSS titles may change; retain the existing filename.
-                    if log_no in recent and recent[log_no].get("title"):
-                        title = escape_yaml(recent[log_no]["title"])
-                        header, rest = content.split("\n---\n", 1)
-                        header = re.sub(
-                            r"(?m)^title:.*$", lambda _: f'title: "{title}"', header, count=1
-                        )
-                        content = header + "\n---\n" + rest
-                    updated += int(write_if_changed(path, content, previous))
+                files = posts[log_no]
+                # Prefer the numbered path; keep it stable on subsequent edits.
+                path, previous = min(files, key=lambda item: (
+                    not item[0].name.endswith(f"-{log_no}.md"),
+                    item[0].name,
+                ))
+                content = replace_body(previous, body)
+                if content is None:
+                    failed += 1
+                    print(f"WARNING: Unrecognized archive format; kept {path}")
+                    continue
+                if log_no in recent and recent[log_no].get("title"):
+                    title = escape_yaml(recent[log_no]["title"])
+                    header, rest = content.split("\n---\n", 1)
+                    header = re.sub(
+                        r"(?m)^title:.*$", lambda _: f'title: "{title}"', header, count=1
+                    )
+                    content = header + "\n---\n" + rest
+                updated += int(write_if_changed(path, content, previous))
+                # Remove duplicates ONLY after the canonical file has a fresh
+                # body. All files were grouped by their original Naver URL.
+                for duplicate, _ in files:
+                    if duplicate != path:
+                        duplicate.unlink()
+                        removed += 1
+                        print(f"Removed duplicate: {duplicate} (kept {path.name})")
             elif log_no in recent:
                 updated += int(new_post(recent[log_no], log_no, body))
 
@@ -226,7 +241,7 @@ def main():
     if full and fetched and last_full != today:
         state.write_text(today + "\n", encoding="utf-8")
 
-    print(f"Sync complete: {len(targets)} targets, {fetched} fetched, {updated} changed, {failed} failures.")
+    print(f"Sync complete: {len(targets)} targets, {fetched} fetched, {updated} changed, {removed} duplicates removed, {failed} failures.")
     if (targets and not fetched) or (not targets and not recent):
         raise SystemExit("No original bodies fetched; retry required.")
 
